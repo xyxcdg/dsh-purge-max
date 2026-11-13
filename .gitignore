@@ -1,0 +1,15 @@
+# 运行产物 / 本地状态 — 不纳入源码仓
+node_modules/
+*.bak
+*.bak-*
+*.dshpurge.bak
+*.log
+*.tmp
+tmp/
+state/
+backups/
+.DS_Store
+Thumbs.db
+
+# 本机运行态（prompt-inject 的 override 锁文件等由用户本机维护）
+override-state.json
